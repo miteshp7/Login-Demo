@@ -4,4 +4,4 @@ CREATE TABLE `tbl_user` (
   `tbl_user_password` varchar(45) NOT NULL,
   `tbl_user_create_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`tbl_user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1 COMMENT='Table used to store user login information';
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Table used to store user login information';
