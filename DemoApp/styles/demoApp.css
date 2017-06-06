@@ -1,0 +1,62 @@
+#container {
+    border: 3px solid #f1f1f1;
+    padding: 16px;
+    margin: 5% 20% 0% 20%;
+}
+h2{
+	font-family: 'Roboto', sans-serif;	
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.field{
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	width: 20%;
+	font-weight: bold;
+}
+.field_value{
+	display: inline-block;
+	width: 50%;
+	margin-left: 2%;
+}
+.loader {
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite; 
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+	position: absolute;
+    left: 48%;
+    top: 50%;
+}
+#message{
+	color: red;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
